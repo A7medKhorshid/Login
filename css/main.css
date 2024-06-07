@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24353F;
+}
+
+.inner{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+button{
+    background-color: transparent !important;
+    color: #17A2B8 !important;
+}
+
+button:hover{
+    background-color: #17A2B8 !important;
+    color: white !important;
+    border: none !important;
+}
+
+input{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+input::placeholder{
+    color: #95B6B6 !important;
+}
+
+h1{
+    color: #17A2B8;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p{
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
